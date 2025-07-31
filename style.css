@@ -1,0 +1,233 @@
+html {
+    zoom: 100%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+
+header {
+    margin-top: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: linear-gradient(45deg, rgb(240, 99, 99) 0%, rgb(240, 99, 99) 11%, rgb(230, 115, 107) 11%, rgb(230, 115, 107) 24%, rgb(220, 132, 114) 24%, rgb(220, 132, 114) 29%, rgb(210, 148, 122) 29%, rgb(210, 148, 122) 45%, rgb(199, 164, 129) 45%, rgb(199, 164, 129) 87%, rgb(189, 181, 137) 87%, rgb(189, 181, 137) 90%, rgb(179, 197, 144) 90%, rgb(179, 197, 144) 100%), linear-gradient(67.5deg, rgb(240, 99, 99) 0%, rgb(240, 99, 99) 11%, rgb(230, 115, 107) 11%, rgb(230, 115, 107) 24%, rgb(220, 132, 114) 24%, rgb(220, 132, 114) 29%, rgb(210, 148, 122) 29%, rgb(210, 148, 122) 45%, rgb(199, 164, 129) 45%, rgb(199, 164, 129) 87%, rgb(189, 181, 137) 87%, rgb(189, 181, 137) 90%, rgb(179, 197, 144) 90%, rgb(179, 197, 144) 100%), linear-gradient(135deg, rgb(240, 99, 99) 0%, rgb(240, 99, 99) 11%, rgb(230, 115, 107) 11%, rgb(230, 115, 107) 24%, rgb(220, 132, 114) 24%, rgb(220, 132, 114) 29%, rgb(210, 148, 122) 29%, rgb(210, 148, 122) 45%, rgb(199, 164, 129) 45%, rgb(199, 164, 129) 87%, rgb(189, 181, 137) 87%, rgb(189, 181, 137) 90%, rgb(179, 197, 144) 90%, rgb(179, 197, 144) 100%), linear-gradient(90deg, rgb(156, 174, 7), rgb(129, 53, 44));
+    background-blend-mode: overlay, overlay, overlay, normal;
+}
+
+header p {
+    font-family: "Ribeye", serif;
+    color: #ffffff;
+    font-size: 60px;
+}
+
+.info {
+    position: relative;
+    width: 100%;
+    height: 528px;
+    left: 0px;
+    top: 50px;
+}
+
+.info-img {
+    position: absolute;
+    width: 40%;
+    left: 55%;
+}
+
+.info-div {
+    position: absolute;
+    width: 50%;
+    left: 5%
+}
+
+.info-butt {
+    width: 70%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+}
+
+.call-butt {
+    text-align: center;
+    font-family: roboto;
+    font-size: 48px;
+    text-decoration: none;
+    color: white;
+    padding: 3% 10%;
+    margin: 5% 5% 5% 0;
+    background: linear-gradient(93.54deg, #FF0000 0%, #FFD705 98.44%);
+    border: 4px solid #6F2222;
+    transition: 1s ease-out;
+}
+
+.call-butt:hover {
+    transform: scale(0.5);
+    transition: 1s ease-out;
+}
+
+.menu-butt {
+    text-align: center;
+    font-family: roboto;
+    font-size: 48px;
+    text-decoration: none;
+    color: white;
+    padding: 3% 10%;
+    margin: 5% 5% 5% 0;
+    background: linear-gradient(93.54deg, #FF0000 0%, #FFD705 98.44%);
+    border: 4px solid #6F2222;
+    transition: 1s ease-out;
+}
+
+.menu-butt:hover {
+    transform: scale(0.5);
+    transition: 1s ease-out;
+}
+
+.menu {
+    width: 100%;
+    padding-bottom: 170px;
+    margin-bottom: 0;
+    border-radius: 40px;
+
+    background-image: linear-gradient(45deg, rgb(240, 99, 99) 0%, rgb(240, 99, 99) 11%, rgb(230, 115, 107) 11%, rgb(230, 115, 107) 24%, rgb(220, 132, 114) 24%, rgb(220, 132, 114) 29%, rgb(210, 148, 122) 29%, rgb(210, 148, 122) 45%, rgb(199, 164, 129) 45%, rgb(199, 164, 129) 87%, rgb(189, 181, 137) 87%, rgb(189, 181, 137) 90%, rgb(179, 197, 144) 90%, rgb(179, 197, 144) 100%), linear-gradient(67.5deg, rgb(240, 99, 99) 0%, rgb(240, 99, 99) 11%, rgb(230, 115, 107) 11%, rgb(230, 115, 107) 24%, rgb(220, 132, 114) 24%, rgb(220, 132, 114) 29%, rgb(210, 148, 122) 29%, rgb(210, 148, 122) 45%, rgb(199, 164, 129) 45%, rgb(199, 164, 129) 87%, rgb(189, 181, 137) 87%, rgb(189, 181, 137) 90%, rgb(179, 197, 144) 90%, rgb(179, 197, 144) 100%), linear-gradient(135deg, rgb(240, 99, 99) 0%, rgb(240, 99, 99) 11%, rgb(230, 115, 107) 11%, rgb(230, 115, 107) 24%, rgb(220, 132, 114) 24%, rgb(220, 132, 114) 29%, rgb(210, 148, 122) 29%, rgb(210, 148, 122) 45%, rgb(199, 164, 129) 45%, rgb(199, 164, 129) 87%, rgb(189, 181, 137) 87%, rgb(189, 181, 137) 90%, rgb(179, 197, 144) 90%, rgb(179, 197, 144) 100%), linear-gradient(90deg, rgb(156, 174, 7), rgb(129, 53, 44));
+    background-blend-mode: overlay, overlay, overlay, normal;
+}
+
+.menu h2 {
+    color: #FF0509;
+    font-size: 128px;
+    text-shadow: 10px 4px #FFD705;
+    text-align: center;
+}
+
+.all-divs-menu {
+    background-color: #FCEC70;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 40px 0 0 40px;
+
+}
+
+.menu-div {
+    position: relative;
+    left: 88px;
+    margin: 1% 0%;
+    height: 240px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.menu-img {
+    width: 20%;
+}
+
+.menu-info {
+    position: absolute;
+    width: 50%;
+    left: 40%;
+    top: 0;
+    height: 200px;
+}
+
+.menu-info h3 {
+    color: #000;
+    font-size: 35px;
+}
+
+.menu-text {
+    color: #000;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.about_us {
+    margin-top: 50px;
+    border-radius: 40px;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    background-image: linear-gradient(45deg, rgb(240, 99, 99) 0%, rgb(240, 99, 99) 11%, rgb(230, 115, 107) 11%, rgb(230, 115, 107) 24%, rgb(220, 132, 114) 24%, rgb(220, 132, 114) 29%, rgb(210, 148, 122) 29%, rgb(210, 148, 122) 45%, rgb(199, 164, 129) 45%, rgb(199, 164, 129) 87%, rgb(189, 181, 137) 87%, rgb(189, 181, 137) 90%, rgb(179, 197, 144) 90%, rgb(179, 197, 144) 100%), linear-gradient(67.5deg, rgb(240, 99, 99) 0%, rgb(240, 99, 99) 11%, rgb(230, 115, 107) 11%, rgb(230, 115, 107) 24%, rgb(220, 132, 114) 24%, rgb(220, 132, 114) 29%, rgb(210, 148, 122) 29%, rgb(210, 148, 122) 45%, rgb(199, 164, 129) 45%, rgb(199, 164, 129) 87%, rgb(189, 181, 137) 87%, rgb(189, 181, 137) 90%, rgb(179, 197, 144) 90%, rgb(179, 197, 144) 100%), linear-gradient(135deg, rgb(240, 99, 99) 0%, rgb(240, 99, 99) 11%, rgb(230, 115, 107) 11%, rgb(230, 115, 107) 24%, rgb(220, 132, 114) 24%, rgb(220, 132, 114) 29%, rgb(210, 148, 122) 29%, rgb(210, 148, 122) 45%, rgb(199, 164, 129) 45%, rgb(199, 164, 129) 87%, rgb(189, 181, 137) 87%, rgb(189, 181, 137) 90%, rgb(179, 197, 144) 90%, rgb(179, 197, 144) 100%), linear-gradient(90deg, rgb(156, 174, 7), rgb(129, 53, 44));
+    background-blend-mode: overlay, overlay, overlay, normal;
+}
+
+.about_us h1 {
+    color: #FF0000;
+    font-size: 80px;
+    text-shadow: 10px 4px #FCEC70;
+    text-align: center;
+}
+
+.about_div {
+    width: 100%;
+    height: 910px;
+    background-image: url("folder/14.png");
+    margin-bottom: 50px;
+    background-size: cover;
+}
+
+.about_us p {
+    width: 700px;
+    font-size: 40px;
+    padding-top: 60px;
+    padding-left: 60px;
+    color: #D0BE3A;
+    -webkit-text-stroke: 1px black;
+}
+
+
+
+footer{
+    margin-top: 60px;
+    text-align: center;
+    padding: 50px;
+    justify-content: center;
+    background: linear-gradient(150.54deg, #FF0000 6.75%, #FFD705 106.75%);
+}
+
+
+
+footer h2{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 100px;
+    font-weight: 700;
+    text-shadow:  10px 4px #FFD705;
+    text-align: center;
+}
+.socials{
+    color: #000;
+    font-family: Inter;
+    font-size: 40px;
+    text-shadow: 1px 1px white;
+ 
+}
+.footer-info h3{
+    color: #000;
+    font-family: Inter;
+    font-size: 40px;
+    text-shadow: 1px 1px white;  
+}
+
+
+.footer-info p{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 30px;
+}
+.footer-content{
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footer-img{
+    width: 100px;
+    height: 100px;
+    margin-right: 6%;
+}
